@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Elenco</title>
+</head>
+
+<body>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+    
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+    
+        body {
+            position: relative;
+        }
+    
+        header  {
+            position: absolute;
+            padding: 2em;
+            width: 100%;
+            font-family: Raleway;
+        } 
+        
+        header ul {
+            list-style-type: none;
+            display: flex;
+        }
+    
+        header ul li  {
+            color: white;
+            display: inline-block;
+            position: relative;
+            width: 100px;
+        }
+    
+        header ul li ul {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            display: none;
+            z-index: 100;
+        }
+    
+    
+        header ul li ul li{
+            color: white;
+            width: 180px;
+        }
+    
+        header li ul li a{
+            color: white;
+            width: 180px;
+        }
+    
+    
+        header ul li a:hover {
+            color: rgba(231, 195, 32, 0.74)
+        }
+    
+        header ul li:hover ul{
+            display: block;
+        }
+    
+        a {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            padding: 18px;
+        }
+        
+        header ul li img {
+            width: 96px;
+            height: 92px;
+            position: relative;
+        /* display: inline-block; */
+        }
+
+        .logo {
+        margin: 0;
+        padding: 0;
+     }
+
+
+        h1, h2, p {
+            text-align: center;
+            font-family: Oswald;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        footer {
+        font-family: Inclusive Sans;
+        text-align: right;
+        background-color: rgb(45, 4, 83);
+        color: white;
+        padding: 10px;
+    }
+    footer a {
+        padding: 3px;
+    }
+
+
+    
+    </style>
+   <header>
+    <ul>
+        <li><a href="login.html">LOGIN</a></li><!--
+    --><li>
+        <a href="index.html" class="logo">
+            <img src="img/logopng.png" alt="menu">
+            <ul> 
+                <li><a href="jogos.html">JOGOS</a></li>
+                <li><a href="jogadores.html">JOGADORES</a></li>
+            </ul>
+        </li>
+        </a>
+            <!--
+    --><li><a href="cadastro.html">CADASTRAR</a></li>
+    </ul>
+</header>
+      <div style="background-image: url(img/capa2.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; width: 100%; height: 50vh;"></div> 
+
+    <div> 
+            <h1 style="font-size: 50px;"> Escalação do Dallas Mavericks - 2023 </h1><hr>
+    </div>
+
+   
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div style="text-align: center;">
+                    <div>
+                        <img src="img/KyrieIrving.jpg" width="420px" alt="IMG-">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" style="padding-bottom: 6px;">
+
+                <h1 style="text-align: center; margin-top: 5px; margin-bottom: 10px;">
+                    Kyrie Irving
+                </h1>
+
+                <h2 style="text-align: center; margin-bottom: 35px;">
+                    Armador
+                </h2>
+
+                <p style="text-align: center; margin: auto; margin-bottom: 22px;">
+                    Kyrie Irving, nascido em 23 de março de 1992 em Melbourne, Austrália, é um talentoso armador que se juntou ao Dallas Mavericks na temporada de 2022. <br>
+                    Antes de sua passagem pelos Mavericks, Kyrie ficou conhecido por suas habilidades excepcionais de dribles,  arremessos precisos e visão de jogo no Cleveland Cavaliers e no Boston Celtics. <br>
+                    Além de ser uma estrela nas quadras, Kyrie é ativo em causas sociais e é reconhecido por seu comprometimento com a comunidade. <br>
+                    Kyrie Irving é conhecido por seu amor pela filosofia e espiritualidade. Ele tem uma tatuagem no pescoço que diz "HUMBLE" (humilde em inglês) como um lembrete de sua jornada de crescimento pessoal.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div style="text-align: center;">
+                    <div>
+                        <img src="img/DwightPowell.jpg" width="420px" alt="IMG-">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" style="padding-bottom: 6px;">
+
+                <h1 style="text-align: center; margin-top: 5px; margin-bottom: 10px;">
+                    Dwight Powell
+                </h1>
+
+                <h2 style="text-align: center; margin-bottom: 35px;">
+                    Pivô
+                </h2>
+
+                <p style="text-align: center; margin: auto; margin-bottom: 22px;">
+                    Dwight Powell, nascido em 20 de julho de 1991 em Toronto, Canadá, é um pivô experiente que tem sido uma peça fundamental na equipe dos Mavericks. Ele é conhecido por sua capacidade de bloqueio e pegar rebotes, bem como por sua presença defensiva sólida. Powell também é admirado  por sua ética de trabalho incansável e por ser um jogador versátil.<br> 
+                    Dwight  é ativo em projetos de caridade e é especialmente apaixonado por ajudar crianças em  situações de dificuldade. Ele fundou a "Dwight Powell Children & Family Support Foundation" para apoiar essas causas.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div style="text-align: center;">
+                    <div>
+                        <img src="img/JadenHardy.jpg" width="420px" alt="IMG-">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" style="padding-bottom: 6px;">
+
+                <h1 style="text-align: center; margin-top: 5px; margin-bottom: 10px;">
+                    Jaden Hardy
+                </h1>
+
+                <h2 style="text-align: center; margin-bottom: 35px;">
+                    Armador
+                </h2>
+
+                <p style="text-align: center; margin: auto; margin-bottom: 22px;">
+                    Jaden Hardy, um jovem talento do basquete, ingressou no Dallas Mavericks em 2022. Nascido em 26 de outubro de 2002, em Detroit, Michigan, Hardy é visto como uma promessa no basquete devido às suas habilidades de manuseio de bola e arremessos precisos. Sua ascensão no mundo do basquete profissional é aguardada com grande expectativa. <br>
+                    Jaden é um músico talentoso e gosta de compor suas próprias músicas nas horas vagas. Ele também é conhecido por ser um jogador de xadrez habilidoso e gosta de jogar partidas quando não está nas quadras.
+
+                </p>
+            </div>
+        </div>
+    </div>   
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div style="text-align: center;">
+                    <div>
+                        <img src="img/JoshGreen.jpg" width="420px" alt="IMG-">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" style="padding-bottom: 6px;">
+
+                <h1 style="text-align: center; margin-top: 5px; margin-bottom: 10px;">
+                    Josh Green
+                </h1>
+
+                <h2 style="text-align: center; margin-bottom: 35px;">
+                    Ala
+                </h2>
+
+                <p style="text-align: center; margin: auto; margin-bottom: 22px;">
+                     Josh Green, nascido em 16 de novembro de 2000 em Sydney, Austrália, é um ala versátil que se juntou aos Mavericks em 2020. Ele é conhecido por sua capacidade atlética, velocidade e habilidades defensivas. Green tem um grande potencial para se tornar uma peça importante na equipe. Josh Green é de origem australiana e cresceu jogando rugby, o que contribuiu para sua resistência física no basquete. <br>
+                     Ele também é um entusiasta de esportes aquáticos e gosta de surfar quando tem a oportunidade.
+
+                </p>
+            </div>
+        </div>
+    </div>    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div style="text-align: center;">
+                    <div>
+                        <img src="img/LukaDoncic.webp" width="420px" alt="IMG-">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" style="padding-bottom: 6px;">
+
+                <h1 style="text-align: center; margin-top: 5px; margin-bottom: 10px;">
+                   Luka Donic 
+                </h1>
+
+                <h2 style="text-align: center; margin-bottom: 35px;">
+                    Armador
+                </h2>
+
+                <p style="text-align: center; margin: auto; margin-bottom: 22px;">
+                     
+                    Luka Doncic, nascido em 28 de fevereiro de 1999 em Liubliana, Eslovênia, é uma das estrelas em ascensão da NBA e o líder do Dallas Mavericks. Desde sua chegada à NBA em 2018, Doncic conquistou os corações dos fãs com suas habilidades de passe, pontuação e visão de jogo excepcionais. Ele é visto como um futuro MVP da liga e uma peça fundamental para o futuro dos Mavericks. <br>
+                    Luka Doncic é um grande fã de futebol e, antes de entrar na NBA, jogava futebol na juventude na Eslovênia. Ele é um apoiador ávido do Real Madrid e é amigo pessoal de vários jogadores do time de futebol.
+
+                </p>
+            </div>
+        </div>
+    </div>    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div style="text-align: center;">
+                    <div>
+                        <img src="img/MaxiKleber.jpg" width="420px" alt="IMG-">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" style="padding-bottom: 6px;">
+
+                <h1 style="text-align: center; margin-top: 5px; margin-bottom: 10px;">
+                    Maxi Kleber
+                </h1>
+
+                <h2 style="text-align: center; margin-bottom: 35px;">
+                    Ala-Pivô
+                </h2>
+
+                <p style="text-align: center; margin: auto; margin-bottom: 22px;">
+                        
+                Maxi Kleber, nascido em 29 de janeiro de 1992 em Würzburg, Alemanha, é um ala-pivô que se destacou pela sua versatilidade defensiva e  capacidadede arremesso. Ele se tornou um componente valioso na rotação dos Mavericks,contribuindo tanto na defesa quanto no ataque.<br> 
+                Maxi Kleber é trilíngue, falando alemão, inglês e espanhol. Ele desenvolveu suas habilidades linguísticas durante sua carreira internacional na Europa antes de ingressar na NBA.
+
+                </p>
+            </div>
+        </div>
+    </div>    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div style="text-align: center;">
+                    <div>
+                        <img src="img/TimHardawayJr..jpg" width="420px" alt="IMG-">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" style="padding-bottom: 6px;">
+
+                <h1 style="text-align: center; margin-top: 5px; margin-bottom: 10px;">
+                    Tim Hardaway Jr.
+                </h1>
+
+                <h2 style="text-align: center; margin-bottom: 35px;">
+                    Ala
+                </h2>
+
+                <p style="text-align: center; margin: auto; margin-bottom: 22px;">
+                    Tim Hardaway Jr. nasceu em 16 de março de 1992, em Miami, Flórida. Ele é um ala versátil que pode contribuir significativamente para o ataque da equipe. Tim Hardaway Jr. é conhecido por seu arremesso de longa distância e sua capacidade de pontuação.<br> 
+                    Tim é filho do ex-jogador da NBA, Tim Hardaway Sr., que também teve uma carreira notável. Tim Jr. carrega o legado da família com orgulho e honra.
+                </p>
+            </div>
+        </div>
+    </div>    
+        
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div style="text-align: center;">
+                    <div>
+                        <img src="img/RichaunHolmes.jpg" width="420px" alt="IMG-">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" style="padding-bottom: 6px;">
+
+                <h1 style="text-align: center; margin-top: 5px; margin-bottom: 10px;">
+                    Richaun Holmes
+                </h1>
+
+                <h2 style="text-align: center; margin-bottom: 35px;">
+                    Ala-Pivô
+                </h2>
+
+                <p style="text-align: center; margin: auto; margin-bottom: 22px;">
+
+                    Richaun Holmes nasceu em 15 de outubro de 1993, em Lockport, Illinois. Ele jogou basquete universitário na Universidade Bowling Green antes de ser selecionado pelo Philadelphia 76ers no Draft da NBA de 2015. Richaun ganhou uma reputação como um pivô atlético e versátil, capaz de pegar rebotes, bloquear arremessos e contribuir no ataque.<br>
+                    Richaun Holmes é um ávido colecionador de tênis e tem uma grande variedade de calçados de edição limitada em sua coleção. Ele também é um entusiasta de tecnologia e gosta de explorar gadgets eletrônicos inovadores durante seu tempo livre.
+                </p>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer >
+        <p>Desenvolvedora:  Serena |<a href="https://www.instagram.com/serenoulhes/" target="_blank"> @serenoulhes</a></p>
+        <p>Idealização e Conteúdo por:  Jhon |<a href="https://www.instagram.com/jhxncrf/" target="_blank"> @jhxncrf</a></p>
+      </footer>
+
+</body>
+</html>
